@@ -1,0 +1,475 @@
+{
+  "contractName": "FbToken",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "standard",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"standard\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/kechagiaskonstantinos/Downloads/mema/contracts/DegreeVerification.sol\":\"FbToken\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/kechagiaskonstantinos/Downloads/mema/contracts/DegreeVerification.sol\":{\"keccak256\":\"0xe8cf072a748f44bb7867de962bef22f7637d98ce729e7fc72ab023066b296fec\",\"urls\":[\"bzzr://ddb2fd2f6fd416ccc8f3149307397ee20d1e89acead9a7fbafbcdf6f3fdb55aa\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040805190810160405280600781526020017f4662546f6b656e000000000000000000000000000000000000000000000000008152506001908051906020019061004f9291906100fa565b506040805190810160405280600381526020017f46425400000000000000000000000000000000000000000000000000000000008152506002908051906020019061009b9291906100fa565b506040805190810160405280600c81526020017f4662546f6b656e2076312e300000000000000000000000000000000000000000815250600390805190602001906100e79291906100fa565b503480156100f457600080fd5b5061019f565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061013b57805160ff1916838001178555610169565b82800160010185558215610169579182015b8281111561016857825182559160200191906001019061014d565b5b509050610176919061017a565b5090565b61019c91905b80821115610198576000816000905550600101610180565b5090565b90565b610499806101ae6000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100675780635a3b7e42146100f75780638da5cb5b1461018757806395d89b41146101de575b600080fd5b34801561007357600080fd5b5061007c61026e565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100bc5780820151818401526020810190506100a1565b50505050905090810190601f1680156100e95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561010357600080fd5b5061010c61030c565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561014c578082015181840152602081019050610131565b50505050905090810190601f1680156101795780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561019357600080fd5b5061019c6103aa565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101ea57600080fd5b506101f36103cf565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610233578082015181840152602081019050610218565b50505050905090810190601f1680156102605780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103045780601f106102d957610100808354040283529160200191610304565b820191906000526020600020905b8154815290600101906020018083116102e757829003601f168201915b505050505081565b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a25780601f10610377576101008083540402835291602001916103a2565b820191906000526020600020905b81548152906001019060200180831161038557829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104655780601f1061043a57610100808354040283529160200191610465565b820191906000526020600020905b81548152906001019060200180831161044857829003601f168201915b50505050508156fea165627a7a723058202fd73346242a3ecf893509a47f1206e988246ea1bf75ff1b88d03e042fb988840029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde03146100675780635a3b7e42146100f75780638da5cb5b1461018757806395d89b41146101de575b600080fd5b34801561007357600080fd5b5061007c61026e565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100bc5780820151818401526020810190506100a1565b50505050905090810190601f1680156100e95780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561010357600080fd5b5061010c61030c565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561014c578082015181840152602081019050610131565b50505050905090810190601f1680156101795780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561019357600080fd5b5061019c6103aa565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156101ea57600080fd5b506101f36103cf565b6040518080602001828103825283818151815260200191508051906020019080838360005b83811015610233578082015181840152602081019050610218565b50505050905090810190601f1680156102605780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103045780601f106102d957610100808354040283529160200191610304565b820191906000526020600020905b8154815290600101906020018083116102e757829003601f168201915b505050505081565b60038054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103a25780601f10610377576101008083540402835291602001916103a2565b820191906000526020600020905b81548152906001019060200180831161038557829003601f168201915b505050505081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104655780601f1061043a57610100808354040283529160200191610465565b820191906000526020600020905b81548152906001019060200180831161044857829003601f168201915b50505050508156fea165627a7a723058202fd73346242a3ecf893509a47f1206e988246ea1bf75ff1b88d03e042fb988840029",
+  "sourceMap": "27:5950:0:-;;;82:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;116:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;148:39;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;27:5950;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:5950:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "27:5950:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;82:30;;8:9:-1;5:2;;;30:1;27;20:12;5:2;82:30:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;82:30:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;148:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;148:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;148:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;49:28;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:28:0;;;;;;;;;;;;;;;;;;;;;;;;;;;116;;8:9:-1;5:2;;;30:1;27;20:12;5:2;116:28:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;116:28:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;82:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;148:39::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;49:28::-;;;;;;;;;;;;;:::o;116:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\n\n\ncontract FbToken {\n\n  address payable public owner;\n\n  string public name = \"FbToken\";\n  string public symbol = \"FBT\";\n  string public standard = \"FbToken v1.0\";\n\n  // uint256 private _totalSupply;\n  //\n  // mapping(address => uint256) private _balances;\n  //\n  // mapping (address => mapping (address => uint256)) private _allowances;\n  //\n  // event Transfer(\n  //   address indexed _from,\n  //   address indexed _to,\n  //   uint256 _value\n  // );\n  //\n  // event Approval(\n  //   address indexed _owner,\n  //   address indexed _spender,\n  //   uint256 _value\n  // );\n  //\n  // modifier onlyOwner() {\n  //     require(msg.sender == owner);\n  //     _;\n  // }\n  //\n  // constructor(uint256 _initialSupply) public{\n  //   _totalSupply = _initialSupply;\n  //   _balances[msg.sender] = _totalSupply;\n  //   owner = msg.sender;\n  // }\n  //\n  // /**\n  //  * Total number of tokens exists.\n  //  */\n  // function totalSupply() public view returns (uint256) {\n  //     return _totalSupply;\n  // }\n  //\n  // /**\n  //  * Gets the balance of the specified address.\n  //  * @param account The address to query the balance of.\n  //  * @return A uint256 representing the amount owned by the passed address.\n  //  */\n  // function balanceOf(address account) public view returns (uint256) {\n  //     return _balances[account];\n  // }\n  //\n  // /**\n  //  * Function to check the amount of tokens that an owner allowed to a spender.\n  //  * @param account address The address which owns the funds.\n  //  * @param spender address The address which will spend the funds.\n  //  * @return A uint256 specifying the amount of tokens still available for the spender.\n  //  */\n  // function allowance(address account, address spender) public view returns (uint256 remaining) {\n  //     return _allowances[account][spender];\n  // }\n  //\n  // /**\n  //  * @dev Approve the passed address to spend the specified amount of tokens on behalf of msg.sender.\n  //  * Beware that changing an allowance with this method brings the risk that someone may use both the old\n  //  * and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this\n  //  * race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards:\n  //  * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\n  //  * @param spender The address which will spend the funds.\n  //  * @param value The amount of tokens to be spent.\n  //  */\n  // function approve(address spender, uint256 value) public returns (bool success) {\n  //   _approve(msg.sender, spender, value);\n  //   return true;\n  // }\n  //\n  // /**\n  //  * @dev Transfer tokens from one address to another.\n  //  * Note that while this function emits an Approval event, this is not required as per the specification,\n  //  * and other compliant implementations may not emit the event.\n  //  * @param from address The address which you want to send tokens from\n  //  * @param to address The address which you want to transfer to\n  //  * @param value uint256 the amount of tokens to be transferred\n  //  */\n  // function transferFrom(address from, address to, uint256 value) public returns (bool) {\n  //   require(value <= _allowances[from][msg.sender]);\n  //   require(from != address(0), \"ERC20: transfer from the zero address\");\n  //   require(to != address(0), \"ERC20: transfer to the zero address\");\n  //   require(balanceOf(from) >= value, \"You not have the ammount\");\n  //\n  //   _balances[from] = _balances[from] - value;\n  //   _balances[to] = _balances[to] + value;\n  //   _allowances[from][msg.sender] -= value;\n  //\n  //   emit Transfer(from, to, value);\n  //\n  //   return true;\n  // }\n  //\n  // /**\n  //  * Transfer token to a specified address.\n  //  * @param to The address to transfer to.\n  //  * @param value The amount to be transferred.\n  //  */\n  // function transfer(address to, uint256 value) public returns (bool success) {\n  //   _transfer(msg.sender, to, value);\n  //   return true;\n  // }\n  //\n  // /**\n  //  * @dev Internal function that mints an amount of the token and assigns it to\n  //  * an account. This encapsulates the modification of balances such that the\n  //  * proper events are emitted.\n  //  * @param account The account that will receive the created tokens.\n  //  * @param value The amount that will be created.\n  //  */\n  // function mint(address account, uint256 value) public onlyOwner returns (bool success){\n  //   require(account != address(0), \"ERC20: mint to the zero address\");\n  //\n  //   _totalSupply += value;\n  //   _balances[account] += value;\n  //   emit Transfer(address(0), account, value);\n  //   return true;\n  // }\n  //\n  // /**\n  //  * @dev Transfer token for a specified addresses.\n  //  * @param from The address to transfer from.\n  //  * @param to The address to transfer to.\n  //  * @param value The amount to be transferred.\n  //  */\n  // function _transfer(address from, address to, uint256 value) internal {\n  //     require(from != address(0), \"ERC20: transfer from the zero address\");\n  //     require(to != address(0), \"ERC20: transfer to the zero address\");\n  //     require(balanceOf(from) >= value, \"You not have the ammount\");\n  //\n  //     _balances[from] = _balances[from] - value;\n  //     _balances[to] = _balances[to] + value;\n  //     emit Transfer(from, to, value);\n  // }\n  //\n  // /**\n  //  * @dev Approve an address to spend another addresses' tokens.\n  //  * @param account The address that owns the tokens.\n  //  * @param spender The address that will spend the tokens.\n  //  * @param value The number of tokens that can be spent.\n  //  */\n  // function _approve(address account, address spender, uint256 value) internal {\n  //   require(account != address(0), \"ERC20: approve from the zero address\");\n  //   require(spender != address(0), \"ERC20: approve to the zero address\");\n  //\n  //   _allowances[account][spender] = value;\n  //   emit Approval(account, spender, value);\n  // }\n\n\n}\n",
+  "sourcePath": "/Users/kechagiaskonstantinos/Downloads/mema/contracts/DegreeVerification.sol",
+  "ast": {
+    "absolutePath": "/Users/kechagiaskonstantinos/Downloads/mema/contracts/DegreeVerification.sol",
+    "exportedSymbols": {
+      "FbToken": [
+        13
+      ]
+    },
+    "id": 14,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 13,
+        "linearizedBaseContracts": [
+          13
+        ],
+        "name": "FbToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "owner",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "49:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address_payable",
+              "typeString": "address payable"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "49:15:0",
+              "stateMutability": "payable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address_payable",
+                "typeString": "address payable"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 6,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "82:30:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "82:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4662546f6b656e",
+              "id": 5,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "103:9:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_83bcbf30a0c601e9219951a9bf7cff377bea6397430f22aa69d76666720f80e7",
+                "typeString": "literal_string \"FbToken\""
+              },
+              "value": "FbToken"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 9,
+            "name": "symbol",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "116:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 7,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "116:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "464254",
+              "id": 8,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "139:5:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_7cd04ca53d188815831b795206ae09556c67d124d2cda8121bdcce618cb3b971",
+                "typeString": "literal_string \"FBT\""
+              },
+              "value": "FBT"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 12,
+            "name": "standard",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "148:39:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 10,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "148:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4662546f6b656e2076312e30",
+              "id": 11,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "173:14:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_dbc8b5c85fed63d9aec80c9104af477718ca6fae5a2cd3361123a55d380d494c",
+                "typeString": "literal_string \"FbToken v1.0\""
+              },
+              "value": "FbToken v1.0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 14,
+        "src": "27:5950:0"
+      }
+    ],
+    "src": "0:5978:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/kechagiaskonstantinos/Downloads/mema/contracts/DegreeVerification.sol",
+    "exportedSymbols": {
+      "FbToken": [
+        13
+      ]
+    },
+    "id": 14,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 13,
+        "linearizedBaseContracts": [
+          13
+        ],
+        "name": "FbToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "owner",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "49:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address_payable",
+              "typeString": "address payable"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "49:15:0",
+              "stateMutability": "payable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address_payable",
+                "typeString": "address payable"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 6,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "82:30:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "82:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4662546f6b656e",
+              "id": 5,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "103:9:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_83bcbf30a0c601e9219951a9bf7cff377bea6397430f22aa69d76666720f80e7",
+                "typeString": "literal_string \"FbToken\""
+              },
+              "value": "FbToken"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 9,
+            "name": "symbol",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "116:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 7,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "116:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "464254",
+              "id": 8,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "139:5:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_7cd04ca53d188815831b795206ae09556c67d124d2cda8121bdcce618cb3b971",
+                "typeString": "literal_string \"FBT\""
+              },
+              "value": "FBT"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 12,
+            "name": "standard",
+            "nodeType": "VariableDeclaration",
+            "scope": 13,
+            "src": "148:39:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 10,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "148:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4662546f6b656e2076312e30",
+              "id": 11,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "173:14:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_dbc8b5c85fed63d9aec80c9104af477718ca6fae5a2cd3361123a55d380d494c",
+                "typeString": "literal_string \"FbToken v1.0\""
+              },
+              "value": "FbToken v1.0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 14,
+        "src": "27:5950:0"
+      }
+    ],
+    "src": "0:5978:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.9",
+  "updatedAt": "2019-06-26T11:43:00.989Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
