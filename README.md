@@ -1,2 +1,2 @@
 # Distributed Degree Verification
-A degree verification system on Ethereum.
+A degree verification system on Ethereum. test
